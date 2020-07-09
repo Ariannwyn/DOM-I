@@ -76,12 +76,12 @@ I tried to write (siteContent["nav"][i]) because I thought that it would loop th
 */
 
 //Add child elements to nav
-let store = document.createElement('p'[9]);
+let store = document.createElement('a'[6]);
 store.textContent = "Store";
 store.style.color = "green";
 nav.appendChild(store);
 
-let home = document.createElement('p'[10]);
+let home = document.createElement('a'[7]);
 home.textContent = "Home";
 home.style.color = "green";
 nav.prepend(home);
@@ -109,8 +109,6 @@ product.textContent = siteContent["main-content"]["product-h4"];
 
 let vision = document.getElementsByTagName("h4")[4];
 vision.textContent = siteContent["main-content"]["vision-h4"];
-
-
 
 //I can add the paragraphs in a similar way.
 let featuresP = document.getElementsByTagName("p")[0];
